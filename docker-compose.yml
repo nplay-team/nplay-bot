@@ -1,0 +1,7 @@
+services:
+  bot:
+    container_name: nplay-levelbot
+    image: nplay-levelbot
+    build:
+      context: .
+      dockerfile: Dockerfile
