@@ -6,7 +6,7 @@ plugins {
 }
 
 application {
-    mainClass = "de.nplay.bot.Bootstrapper"
+    mainClass = "de.nplay.levelbot.bot.Bootstrapper"
 }
 
 repositories {
