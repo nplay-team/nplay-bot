@@ -16,7 +16,8 @@ updates:
           - "version-update:semver-minor"
           - "version-update:semver-patch"
     labels:
-      - "t:dependencies"
+      - "type:dependencies"
+      - "deps:github actions"
     assignees:
       - finnmargraf
       - Kaktushose
@@ -33,7 +34,8 @@ updates:
     ignore:
       - dependency-name: "gradle"
     labels:
-      - "t:dependencies"
+      - "type:dependencies"
+      - "deps:java"
     assignees:
       - Kaktushose
       - finnmargraf
